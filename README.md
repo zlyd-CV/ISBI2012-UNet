@@ -3,6 +3,7 @@
 ## 一、项目介绍
 + 本项目基于Pytorch构建了3个模型，分别为ResNet-34、UNet、UNet++，针对原论文中提到的ISBI2012竞赛。
 + 本项目不包含模型部署，仅使用训练好的模型权重对测试集（不含标签）的图像进行预测。
++ 本项目不使用数据增强扩充小样本，仅作为网络架构的复现(通过填充不改变图像大小，简化原论文的UNet模型)
 + 数据集展示
 
 ![图像](https://github.com/zlyd-CV/Photos-Are-Used-To-Others-Repository/blob/3de129a4f320bd29a0c5d747dc66be4e426e9cc6/ISBI2012-UNet/%E8%AE%AD%E7%BB%83%E9%9B%86%E5%9B%BE%E5%83%8F.png)
